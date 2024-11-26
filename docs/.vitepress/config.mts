@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/my-note",
   title: "记录",
   description: "零散的知识",
   themeConfig: {
